@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Picker</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      color: #0f0f0f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin: 20px 0;
+    }
+
+    input[type="text"], input[type="color"] {
+      padding: 8px;
+      margin: 10px;
+      border-radius: 4px;
+      border: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: orange;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .footer {
+      margin-top: 30px;
+    }
+
+    .footer a {
+      margin: 0 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="welcome">Welcome to our Color Playground!</h1>
+  <p>We are launching another website soon. In the meantime, have fun changing the background color!</p>
+
+  <div class="container">
+    <h2>Pick a color to change the background</h2>
+    <input type="text" id="colorinput" placeholder="Enter color name or hex">
+    <input type="color" id="colorpicker">
+    <p>Type a color name like "red" or use the color picker above</p>
+  </div>
+
+  <a href="index.html">⬅ BACK</a>
+
+  <div class="footer">
+    <a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png" alt="Facebook"/></a>
+    <a href="https://x.com/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter.png" alt="Twitter"/></a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" alt="Instagram"/></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png" alt="YouTube"/></a>
+  </div>
+<script src="java.js"></script>
+</body>
+</html>
